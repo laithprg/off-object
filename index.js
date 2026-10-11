@@ -4,6 +4,8 @@ let countplayerSpan=document.querySelector('.countplayer-span');
 let container1=document.querySelector('.container1');
 let continueButton=document.querySelector('.continue-button');
 let chooseblyerForm=document.querySelector('.chooseblyer-form');
+let finalContainer=document.querySelector('.final-container');
+
 
 addplayerButton.addEventListener('click',function(){
     count++;
@@ -78,6 +80,7 @@ let i=0;
 function startphase2(){        
         function startcontainer2(){
             if(i==players.length){
+                finalContainer.classList.remove('hidden');
                 return;
             }
             let container2=document.createElement("div");
@@ -155,25 +158,3 @@ function startphase2(){
         }
         startcontainer2();
     }
-  
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

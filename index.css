@@ -169,20 +169,12 @@ footer{
     color:red;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.final-container{
+    background-color: #FEC125;
+    padding:20px;
+    border-radius: 10px;
+    margin-top:9rem;
+}
 
 .hidden{
 display: none;
